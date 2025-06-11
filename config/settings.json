@@ -1,0 +1,14 @@
+{
+  "POOL_SOURCES": ["adex", "defibox", "taco", "neftyblocks"],
+  "SWAP_CONTRACTS": ["swap.taco", "alcordexmain", "swap.alcor", "swap.box"],
+  "TIME_WINDOW_HOURS": 24,
+  "UPDATE_INTERVAL_MINUTES": 5,
+  "CACHE_DIR": "cache",
+  "OUTPUT_DIR": "output",
+  "MIN_RESERVE_THRESHOLD": 1.0,
+  "MAX_PRICE_DEVIATION": 0.5,
+  "API_TIMEOUT": 15,
+  "RETRY_ATTEMPTS": 3,
+  "LOG_LEVEL": "INFO",
+  "HYPERION_API": "https://api.wax.alohaeos.com/v2/history/get_actions"
+}
